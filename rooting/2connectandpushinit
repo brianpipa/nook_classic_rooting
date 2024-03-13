@@ -1,5 +1,5 @@
 echo "--reconnect"
-adb connect 192.168.1.207:5555
+adb connect YOUR_NOOK_IP:5555
 
 echo "--push init"
 adb push init.rc /
