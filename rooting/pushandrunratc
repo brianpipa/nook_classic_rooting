@@ -1,0 +1,13 @@
+echo "--push"
+adb push ratc.bin /sqlite_stmt_journals
+
+echo "--shell execute"
+adb shell < /home/bpipa/1tmp/1nookclassicjailbreak/adbcommands.txt
+
+echo "--kill server"
+adb kill-server
+
+echo "--restart server"
+adb start-server
+
+echo "RECRASH BROWSER"

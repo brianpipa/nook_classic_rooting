@@ -1,0 +1,2 @@
+/system/bin/chmod 777 /sqlite_stmt_journals/ratc.bin
+/sqlite_stmt_journals/ratc.bin
