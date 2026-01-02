@@ -13,7 +13,7 @@
 I did this from linux. Steps for Windows/mac will differ.
 Follow the instructions on the pages above, specifically, https://xdaforums.com/t/q-rooting-nook-classic-nook-first-edition.2395798/ ), but here are the things that weren't clear for me...
 * to get my Nook's IP, I made note of the Nook's MAC address on the settings page, then I logged into my router and found the connected device with that MAC address and copied the IP address.
-* I had to put the "crash webpage" onto a server I control that can run http. The one they mention, http://nookadb.suspended-chord.info/ was trying to redirect to https. I ended up using my own at http://gruntbug.com/n
+* I had to put the "crash webpage" onto a server I control that can run http. The one they mention, http://nookadb.suspended-chord.info/ was trying to redirect to https. I ended up using my own on my own server.
 * I included the modified (correct) init.rc in this repo, so you don't have to do the pull and edit of the init.rc. You can just use this copy when you get to the step where you push it back to the device. NOTE: I did not verify there is nothing device-specific in the init.rc.
 * Once you run ratc.bin and it succeeds, do NOT restart the Nook. Try crashing the browser again so you can push the init.rc.
 * The entire process took me MANY MANY tries. I think all told it took me about 2 hours.
